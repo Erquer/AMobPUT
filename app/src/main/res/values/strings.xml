@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LayoutsXML</string>
+    <string name="CoS_hint">Cost of Service</string>
+    <string name="service_question">How was your service?</string>
+    <string name="amazing_service_string">(20%) Amazing!</string>
+    <string name="good_service_string">(18%) Good!</string>
+    <string name="okey_service_string">(15%) Okey!</string>
+    <string name="round_switch">Round the tip?</string>
+    <string name="calculate_button_text">Calculate</string>
+    <string name="tip_amount_string">Tip Amount</string>
+    <string name="tip_amount">Tip Amount: %s</string>
+</resources>
