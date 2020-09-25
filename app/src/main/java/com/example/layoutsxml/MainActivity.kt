@@ -7,6 +7,9 @@ import androidx.cardview.widget.CardView
 import com.example.layoutsxml.databinding.ActivityMainBinding
 import java.text.NumberFormat
 
+/**
+ * First Activity - main screen
+ */
 class MainActivity : AppCompatActivity() {
     private lateinit var binding:ActivityMainBinding
 
