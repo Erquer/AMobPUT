@@ -12,30 +12,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.calculateButton.setOnClickListener {
-            calculateTip()
-        }
+       binding.fbLoginButton.setOnClickListener {
+           println("Hello there, I'm working!")
+       }
     }
-    private fun calculateTip(){
-        val stringInTextField:String = binding.costOfService.text.toString()
-        val cost = stringInTextField.toDoubleOrNull()
-        if (cost == null) {
-        binding.tipResult.text = ""
-        return
-        }
-        val tipPrecentage = when(binding.tipOptions.checkedRadioButtonId){
-            R.id.twenty_procent -> 0.20
-            R.id.eighteen_procent -> 0.18
-            else -> 0.15
-        }
 
-        var tip = tipPrecentage * cost
-        val roundUp = binding.roundUpSwitch.isChecked
-        if(roundUp){
-            tip = kotlin.math.ceil(tip)
-        }
-
-        val formattedTip = NumberFormat.getCurrencyInstance().format(tip)
-        binding.tipResult.text = getString(R.string.tip_amount, formattedTip)
-    }
 }
