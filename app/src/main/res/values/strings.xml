@@ -2,4 +2,7 @@
     <string name="app_name">LayoutsXML</string>
     <string name="login_button_text">Login</string>
     <string name="join_button_text">Join to Brainstorm</string>
+    <string name="logged_history_string">Show History</string>
+    <string name="logged_create_string">Create new Brainstorm</string>
+    <string name="code_hint">Pass the code</string>
 </resources>
