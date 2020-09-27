@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.widget.ArrayAdapter
 import androidx.appcompat.app.AlertDialog
 import androidx.cardview.widget.CardView
+import androidx.core.view.get
 import com.example.layoutsxml.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.activity_code_pop_up.*
 import kotlinx.android.synthetic.main.activity_code_pop_up.view.*
@@ -39,6 +40,7 @@ class MainActivity : AppCompatActivity() {
             mAlertDialog.brainstorm_spinner.adapter = ArrayAdapter<String>(this,R.layout.support_simple_spinner_dropdown_item, array)
             mDialogView.pass_code_btn.setOnClickListener {
                 mAlertDialog.dismiss()
+                val brainStormName = mDialogView.brainstorm_spinner.selectedItem.toString()
                 val code = mDialogView.codeEt.text.toString()
                 when(code){
                     // check if code match to chosen brainstorm.
