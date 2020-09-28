@@ -7,5 +7,14 @@
     <string name="code_hint">Pass the code</string>
     <string name="popupCodeText">Enter Code Here</string>
     <string name="pass_code_btn_string">Pass The Code</string>
-
+    <string name="brain_1">Test 1 \n \n \n</string>
+    <string name="brain_2">Test 2\n \n \n</string>
+    <string name="brain_3">Test 3\n \n \n</string>
+    <string name="brain_4">Test 4\n \n \n</string>
+    <string name="brain_5">Test 5\n \n \n</string>
+    <string name="brain_6">Test 10 \n \n \n</string>
+    <string name="brain_7">Test 20\n \n \n</string>
+    <string name="brain_8">Test 30\n \n \n</string>
+    <string name="brain_9">Test 40\n \n \n</string>
+    <string name="brain_10">Test 50\n \n \n</string>
 </resources>
